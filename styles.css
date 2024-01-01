@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #032030;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    width: 500px;
+    height: calc(100vh - 74px);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-200px);
+}
+
+.top-low {
+    font-weight: lighter;
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.big-text-name {
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+    width: 100%;
+}
+
+.under-animated {
+    font-weight: lighter;
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.animated-text {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    width: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+    z-index: -100;
+    font-family: 'Poppins', sans-serif;
+}
+
+#extention {
+    &:after {
+        content: "|";
+        animation: cursorpulse 0.9s infinite;
+        position: relative;
+        top: 0px;
+        font-weight: 500;
+    }
+}
+@keyframes cursorpulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
