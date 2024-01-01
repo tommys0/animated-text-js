@@ -39,6 +39,21 @@ To integrate this animated typing text into your project:
 
 Feel free to modify the animation speed, text content, or styling properties in the JavaScript and CSS files to suit your project's needs.
 
-## Contributing
+### Planned Features
 
-Contributions in the form of bug fixes, feature enhancements, or translations are welcome! Fork this repository, make your changes, and create a pull request.
+- **Additional Text Effects:** Implement different text effects beyond typing, such as fading or highlighting.
+- **Support for External Data Source:** Enable dynamic content loading from an external source.
+
+### Bug Fixes and Improvements
+
+- **Optimize Code:** Refactor code for improved performance and readability.
+- **Cross-Browser Compatibility:** Ensure the animation works consistently across different browsers.
+- **Accessibility Improvements:** Enhance accessibility features for better user experience.
+
+## How to Contribute
+
+If you'd like to contribute to this project, feel free to:
+
+- **Submit Pull Requests:** Address any planned features, bug fixes, or improvements.
+- **Suggest Ideas:** Share your ideas for additional features or enhancements.
+- **Report Issues:** Report any bugs, issues, or suggestions you encounter.
